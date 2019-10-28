@@ -11,13 +11,6 @@ body,html{
 		position: sticky;
 		top:0;
 	}
-	a{
-		text-decoration: none;
-		color: white;
-	}
-	a:hover{
-		text-decoration:none;
-	}
 	#nav-logo{
 		height: 30px;
 	}
@@ -286,6 +279,13 @@ hr{
 .day-details{ 
 	color: white;
 	font-family:Roboto;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration:none;
 }
 /*.speaker-grid{
 	display: flex;
