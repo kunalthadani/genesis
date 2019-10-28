@@ -82,7 +82,7 @@ body,html{
 
 }
 	
-@media only screen (max-width: 799px){
+@media only screen and (max-width: 799px){
 	.drop-item{
 		text-align: center;
 		font-family: Roboto;
