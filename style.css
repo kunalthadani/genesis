@@ -95,7 +95,7 @@ body,html{
 		display: none;
 	}
 	.val{
-		font-size: 16px;
+		/*font-size: 16/*px*/
 	}
 	.nav-bar{
 		display: none;
@@ -110,7 +110,7 @@ body,html{
 		height: 30px;
 	}
 	.Genesis{
-		font-size: 2.5em;
+		font-size: 4em;
 	}
 	.member-exclusive{
 		font-size: 1.2em;
