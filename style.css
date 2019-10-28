@@ -1,0 +1,299 @@
+body,html{
+	height: 100%;
+	margin: 0;
+}
+@media(min-width: 600px){
+	.nav-mob{
+		display: none;
+	}
+	.nav-bar{
+		color: white;
+		position: sticky;
+		top:0;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	a:hover{
+		text-decoration:none;
+	}
+	#nav-logo{
+		height: 30px;
+	}
+	.nav-flex{
+		padding: 10px 5%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.basic-details{
+		font-family: Helvetica;
+		color: white;
+		padding: 10px;
+	}
+	.nav-bar ul{
+		font-family: Roboto;
+		padding: 5px;
+		list-style-type: none;
+		display: inline-block;
+		margin: 0;
+	}
+	.nav-bar li{
+		padding: 5px;
+		display: inline-block;
+	}
+	.nav-bar li:hover{
+		color: #60c1fc;
+		cursor: pointer;
+	}
+
+	.Genesis{
+		font-size:7em;
+	}
+	.member-exclusive{
+		font-size: 1.5em;
+	}
+	.val{
+		font-size: 48px;
+	}
+	.landing{
+		background-image: url("main-2.jpg");
+		height: 100%;
+	}
+	#about{
+		margin:  30px 150px;
+	}
+	.about-sponsors{
+		margin:  10px 150px;	
+	}
+	.day-div{
+		padding: 30px 0;
+		width: 50%;
+	}
+	.day-details{
+		padding: 25px 60px; 
+	}
+	hr{
+		width: 25%;
+	}
+	.day-topic{
+		font-size: 2em;
+	}
+
+}
+	
+@media(max-width: 599px){
+	.drop-item{
+		text-align: center;
+		font-family: Roboto;
+		background-color: #262626;
+		padding: 10px;
+		color: white;
+		font-size: 0.8em;
+	}
+	#dropdown{
+		display: none;
+	}
+	.val{
+		font-size: 16px;
+	}
+	.nav-bar{
+		display: none;
+	}
+	.nav-mob-flex{
+		display: flex;
+		justify-content: space-between;
+
+	}
+	.nav-mob-flex img{
+		padding: 5px 20px ;
+		height: 30px;
+	}
+	.Genesis{
+		font-size: 2.5em;
+	}
+	.member-exclusive{
+		font-size: 1.2em;
+	}
+	.landing{
+		background-image: url("main-2.jpg");
+		height: calc(100% - 40px);
+	}
+	#about{
+		/*text-align: left;*/
+		margin:  30px 15px;
+		/*font-size: 14px;*/
+	}
+	.about-sponsors{
+		margin:  10px 40px;	
+	}
+	.title{
+		font-size: 0.8em;
+	}
+
+	.day-div{
+		padding: 10px 0;
+		width: 100%;
+	}
+	.day-details{
+		padding: 25px 15px; 
+	}
+	hr{
+		width: 50%;
+	}
+	.day-topic{
+		font-size: 1.8em;
+	}
+	.speakers,.sponsors,#event{
+		padding: 20px 0;	
+	}
+	
+}
+
+.inner-flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100%;
+}
+.landing{
+	overflow-y: hidden;
+	/*background-image: url("main-2.jpg");*/
+	background-size: cover;
+	/*height: 100%;*/
+}
+.landing-container{
+	text-align: center;
+}
+.member-exclusive{
+	padding: 15px;
+	font-family: Roboto;
+	font-weight: lighter;
+	color: #60c1fc;
+}
+.Genesis{
+	color: white;
+	padding: 25px;
+	font-family: Gotham;
+	font-weight: bolder;
+}
+hr{
+	color: white;
+	/*width: 25%;*/
+}
+
+.counter{
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+}
+.val{
+	color: white;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+.title{
+	font-family: Roboto;
+	color: #60c1fc;
+}
+
+#about{
+	font-family: Helvetica;
+	text-align: center;
+	color: grey;
+}
+.speakers, .sponsors,#event{
+	text-align: center; 
+}
+
+.heading{
+	font-family:Helvetica;
+	font-size:1.7em;
+}
+.mic{
+	padding-bottom:  10px;
+	height: 50px;
+
+}
+.about-sponsors{
+	font-family: Helvetica;
+	text-align: center;
+	color: grey;
+}
+.dates{
+	padding-bottom: 10px; 
+}
+.inner-img{
+	display: flex;
+	align-items:center;
+}
+.sponsor-images{
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+	justify-content: space-around;
+	margin: 20px auto;
+}
+.sponsor-images img{
+	padding: 20px 0;
+	width:  150px;
+}
+.day-wise{
+	display: flex;
+	flex-wrap: wrap;
+}
+.day-div{
+	text-align: center;
+	background-size: cover;
+}
+#day1{
+	background-image: url('design_pilot.jpg');
+	  
+}
+#day2{
+	background-image: url('code-screen.png');  
+}
+#day3{
+	background-image: url('code-screen2.png');
+}
+#day4{
+	background-image: url('code-screen3.png');
+}
+.day{
+	padding: 3px;
+	font-family: Roboto;
+	font-weight: lighter;
+	font-size: 1.7em;
+	color: white;
+}
+.day-topic{
+	font-family: Gotham;
+	font-weight: bold;
+	color: white;
+	/*font-size: 2em;*/
+}
+.time{
+	font-family:helvetica;
+	color: white;
+}
+.venue{
+	padding: 5px 0;
+	font-family:helvetica;
+	color: white;
+	font-weight: bold;
+}
+.day-details{ 
+	color: white;
+	font-family:Roboto;
+}
+/*.speaker-grid{
+	display: flex;
+}
+.speaker-img-div{
+	width: calc(100% / 3);
+
+	overflow: hidden;
+}
+.speaker-grid img{
+	width: 100%;
+}*/
