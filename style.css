@@ -134,10 +134,10 @@ body,html{
 	.day-div{
 		padding: 10px 0;
 		width: 100%;
-		height: ;
+		height: 100%;
 	}
 	.day-details{
-		padding: 25px 50px; 
+		padding: 25px 30px; 
 	}
 	hr{
 		width: 50%;
