@@ -1,6 +1,7 @@
 body,html{
 	height: 100%;
 	margin: 0;
+	padding: 0;
 	background-color: #eeeeee;
 }
 @media only screen and (min-width: 800px){
@@ -156,8 +157,11 @@ body,html{
 	.day-topic{
 		font-size: 1.8em;
 	}
-	.speakers,#event{
+	.speakers{
 		padding: 20px 0;	
+	}
+	#event{
+		padding-top:20px;	
 	}
 	.speaker-grid{
 		padding: 0 30px;
@@ -344,6 +348,6 @@ a:hover{
 	font-size: 0.9em;
 }
 .sponsors{
-	margin-top: 25px; 
+	padding: 25px;
 	text-align: center;
 }
