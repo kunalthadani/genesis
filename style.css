@@ -20,12 +20,12 @@ body,html{
 		justify-content: space-between;
 	}
 	.basic-details{
-		font-family: Helvetica;
+		font-family: Helvetica,'Roboto',Sans-serif ;
 		color: white;
 		padding: 10px;
 	}
 	.nav-bar ul{
-		font-family: Roboto;
+		font-family: 'Roboto', Sans-serif;
 		padding: 5px;
 		list-style-type: none;
 		display: inline-block;
@@ -74,16 +74,15 @@ body,html{
 	}
 	.speaker-grid{
 		padding: 0px 100px 50px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around; 
 	}
 	.card{
 		width: 25%;
 		min-height: 420px;
 	}	
-	.speaker-grid{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around; 
-	}
+
 	.img-wrap{
 		height: 200px;
 	}
@@ -92,7 +91,7 @@ body,html{
 @media only screen and (max-width: 799px){
 	.drop-item{
 		text-align: center;
-		font-family: Roboto;
+		font-family: 'Roboto', Sans-serif;
 		background-color: #262626;
 		padding: 10px;
 		color: white;
@@ -185,7 +184,7 @@ body,html{
 }
 .member-exclusive{
 	padding: 15px;
-	font-family: Roboto;
+	font-family: 'Roboto', Sans-serif;
 	font-weight: lighter;
 	color: #60c1fc;
 }
@@ -207,7 +206,7 @@ hr{
 }
 .val{
 	color: white;
-	font-family: Helvetica;
+	font-family: Helvetica,'Roboto',Sans-serif;
 	font-weight: bold;
 }
 .title{
@@ -216,7 +215,7 @@ hr{
 }
 
 #about{
-	font-family: Helvetica;
+	font-family: Helvetica,'Roboto',Sans-serif;
 	text-align: center;
 	color: grey;
 }
@@ -225,7 +224,7 @@ hr{
 }
 
 .heading{
-	font-family:Helvetica;
+	font-family:Helvetica,'Roboto',Sans-serif;
 	font-size:1.7em;
 }
 .mic{
@@ -234,7 +233,7 @@ hr{
 
 }
 .about-sponsors{
-	font-family: Helvetica;
+	font-family: Helvetica,'Roboto',Sans-serif;
 	text-align: center;
 	color: grey;
 }
@@ -279,7 +278,7 @@ hr{
 }
 .day{
 	padding: 3px;
-	font-family: Roboto;
+	font-family: Roboto, Sans-serif;
 	font-weight: lighter;
 	font-size: 1.7em;
 	color: white;
@@ -290,18 +289,18 @@ hr{
 	color: white;
 }
 .time{
-	font-family:helvetica;
+	font-family:Helvetica,'Roboto',Sans-serif;
 	color: white;
 }
 .venue{
 	padding: 5px 0;
-	font-family:helvetica;
+	font-family:Helvetica,'Roboto',Sans-serif;
 	color: white;
 	font-weight: bold;
 }
 .day-details{ 
 	color: white;
-	font-family:Roboto;
+	font-family:Roboto, Sans-serif;
 }
 a{
 	text-decoration: none;
@@ -311,10 +310,11 @@ a:hover{
 	text-decoration:none;
 }
 .card{
-	box-shadow: 10px 10px 10px 0px rgba(26,26,26,0.3);
+	box-shadow: 10px 10px 10px 0px rgba(26,26,15,0.2);
+	background-color: #eaeaea;
 	margin: 40px 0 ;
 }
-.img-wrap{
+.img-wrap{ 
 	overflow: hidden;
 }
 .img-wrap img{
@@ -323,15 +323,15 @@ a:hover{
 .speaker-name{
 	padding-top: 10px;
 	padding-bottom: 5px;
-	font-family: Roboto;
+	font-family: Roboto, Sans-serif;
 	font-size: 1.1em;
 }
 .speaker-details{
 	color: #0384fc;
-	font-family: Helvetica;
+	font-family: Helvetica,'Roboto',Sans-serif;
 }
 .speaker-desc{
-	font-family: Helvetica;
+	font-family: Helvetica,'Roboto',Sans-serif;
 	color: grey;
 	padding: 10px 20px;
 	font-size: 0.9em;
