@@ -87,6 +87,9 @@ body,html{
 	.img-wrap{
 		height: 200px;
 	}
+	.sponsor-images img{
+		width:  300px;
+	}
 }
 	
 @media only screen and (max-width: 799px){
@@ -153,7 +156,7 @@ body,html{
 	.day-topic{
 		font-size: 1.8em;
 	}
-	.speakers,.sponsors,#event{
+	.speakers,#event{
 		padding: 20px 0;	
 	}
 	.speaker-grid{
@@ -165,6 +168,10 @@ body,html{
 	}
 	.img-wrap{
 		height: 300px;
+	}
+	.sponsor-images img{
+		padding: 20px 0;
+		width:  200px;
 	}
 }
 
@@ -220,7 +227,7 @@ hr{
 	text-align: center;
 	color: grey;
 }
-.speakers, .sponsors,#event{
+.speakers,#event{
 	text-align: center; 
 }
 
@@ -254,7 +261,6 @@ hr{
 }
 .sponsor-images img{
 	padding: 20px 0;
-	width:  150px;
 }
 .day-wise{
 	display: flex;
@@ -336,4 +342,8 @@ a:hover{
 	color: grey;
 	padding: 10px 20px;
 	font-size: 0.9em;
+}
+.sponsors{
+	margin-top: 25px; 
+	text-align: center;
 }
