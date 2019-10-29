@@ -72,7 +72,17 @@ body,html{
 	.day-topic{
 		font-size: 2em;
 	}
-
+	.speaker-grid{
+		padding: 0px 100px 50px;
+	}
+	.card{
+		width: 25%;
+	}	
+	.speaker-grid{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around; 
+	}
 }
 	
 @media only screen and (max-width: 799px){
@@ -83,6 +93,7 @@ body,html{
 		padding: 10px;
 		color: white;
 		font-size: 0.8em;
+
 	}
 	#dropdown{
 		display: none;
@@ -141,7 +152,12 @@ body,html{
 	.speakers,.sponsors,#event{
 		padding: 20px 0;	
 	}
-	
+	.speaker-grid{
+		padding: 0 20px;
+	}
+	.card{
+		width: 100%;
+	}
 }
 
 .inner-flex{
@@ -264,7 +280,6 @@ hr{
 	font-family: Gotham;
 	font-weight: bold;
 	color: white;
-	/*font-size: 2em;*/
 }
 .time{
 	font-family:helvetica;
@@ -287,14 +302,31 @@ a{
 a:hover{
 	text-decoration:none;
 }
-/*.speaker-grid{
-	display: flex;
+.card{
+	min-height: 420px;
+	box-shadow: 10px 10px 10px 0px rgba(26,26,26,0.3);
+	margin: 40px 0 ;
 }
-.speaker-img-div{
-	width: calc(100% / 3);
-
+.img-wrap{
+	height: 200px;
 	overflow: hidden;
 }
-.speaker-grid img{
+.img-wrap img{
 	width: 100%;
-}*/
+}
+.speaker-name{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-family: Roboto;
+	font-size: 1.1em;
+}
+.speaker-details{
+	color: #0384fc;
+	font-family: Helvetica;
+}
+.speaker-desc{
+	font-family: Helvetica;
+	color: grey;
+	padding: 10px 20px;
+	font-size: 0.9em;
+}
