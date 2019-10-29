@@ -207,7 +207,9 @@ body,html{
 	font-weight: bold;
 }
 hr{
-	color: white;
+	border-width:0;
+	height: 1px;
+	background-color:white;
 	/*width: 25%;*/
 }
 
