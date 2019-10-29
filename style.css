@@ -33,7 +33,7 @@ body,html{
 		margin: 0;
 	}
 	.nav-bar li{
-		padding: 5px;
+		padding: 5px 15px;
 		display: inline-block;
 	}
 	.nav-bar li:hover{
