@@ -1,6 +1,7 @@
 body,html{
 	height: 100%;
 	margin: 0;
+	background-color: #eeeeee;
 }
 @media only screen and (min-width: 800px){
 	.nav-mob{
@@ -191,8 +192,8 @@ body,html{
 .Genesis{
 	color: white;
 	padding: 25px;
-	font-family: Gotham;
-	font-weight: bolder;
+	font-family: Gotham,'Raleway',Sans-serif;
+	font-weight: bold;
 }
 hr{
 	color: white;
@@ -284,7 +285,7 @@ hr{
 	color: white;
 }
 .day-topic{
-	font-family: Gotham;
+	font-family: 'Raleway',Sans-serif;
 	font-weight: bold;
 	color: white;
 }
@@ -311,7 +312,7 @@ a:hover{
 }
 .card{
 	box-shadow: 10px 10px 10px 0px rgba(26,26,15,0.2);
-	background-color: #eaeaea;
+	background-color: white;
 	margin: 40px 0 ;
 }
 .img-wrap{ 
