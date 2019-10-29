@@ -77,11 +77,15 @@ body,html{
 	}
 	.card{
 		width: 25%;
+		min-height: 420px;
 	}	
 	.speaker-grid{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around; 
+	}
+	.img-wrap{
+		height: 200px;
 	}
 }
 	
@@ -153,10 +157,14 @@ body,html{
 		padding: 20px 0;	
 	}
 	.speaker-grid{
-		padding: 0 20px;
+		padding: 0 30px;
 	}
 	.card{
 		width: 100%;
+		min-height: 600px;
+	}
+	.img-wrap{
+		height: 300px;
 	}
 }
 
@@ -303,12 +311,10 @@ a:hover{
 	text-decoration:none;
 }
 .card{
-	min-height: 420px;
 	box-shadow: 10px 10px 10px 0px rgba(26,26,26,0.3);
 	margin: 40px 0 ;
 }
 .img-wrap{
-	height: 200px;
 	overflow: hidden;
 }
 .img-wrap img{
