@@ -161,7 +161,7 @@ body,html{
 	}
 	.card{
 		width: 100%;
-		min-height: 600px;
+		min-height: 500px;
 	}
 	.img-wrap{
 		height: 300px;
