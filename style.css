@@ -52,7 +52,7 @@ body,html{
 		font-size: 48px;
 	}
 	.landing{
-		background-image: url("./assets/main-2.jpg");
+		background-image: url("./assets/main-3.jpg");
 		height: 100%;
 	}
 	#about{
@@ -128,7 +128,7 @@ body,html{
 		font-size: 1.2em;
 	}
 	.landing{
-		background-image: url("./assets/main-2.jpg");
+		background-image: url("./assets/main-3.jpg");
 		height: calc(100% - 40px);
 	}
 	#about{
