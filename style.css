@@ -52,7 +52,7 @@ body,html{
 		font-size: 48px;
 	}
 	.landing{
-		background-image: url("main-2.jpg");
+		background-image: url("./assets/main-2.jpg");
 		height: 100%;
 	}
 	#about{
@@ -128,7 +128,7 @@ body,html{
 		font-size: 1.2em;
 	}
 	.landing{
-		background-image: url("main-2.jpg");
+		background-image: url("./assets/main-2.jpg");
 		height: calc(100% - 40px);
 	}
 	#about{
@@ -277,17 +277,17 @@ hr{
 	background-size: cover;
 }
 #day1{
-	background-image: url('design_pilot.jpg');
+	background-image: url('./assets/design_pilot.jpg');
 	  
 }
 #day2{
-	background-image: url('code-screen.png');  
+	background-image: url('./assets/code-screen.png');  
 }
 #day3{
-	background-image: url('code-screen2.png');
+	background-image: url('./assets/code-screen2.png');
 }
 #day4{
-	background-image: url('code-screen3.png');
+	background-image: url('./assets/code-screen3.png');
 }
 .day{
 	padding: 3px;
