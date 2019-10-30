@@ -113,11 +113,12 @@ body,html{
 		background-color: red; 
 	}
 	.drop-item{
+
 		text-align: center;
 		font-family: 'Roboto', Sans-serif;
 		background-color: #262626;
 		padding: 10px;
-		color: white;
+		color: blue;
 		font-size: 0.8em;
 
 	}
