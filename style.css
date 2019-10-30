@@ -423,7 +423,7 @@ a:hover{
 	display: flex;
 	justify-content: center;
 	align-items:  center;
-	font-family: Roboto;
+	font-family: 'Roboto',Sans-serif;
 	color: grey;
 }
 #logo-white{
