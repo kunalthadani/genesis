@@ -104,21 +104,13 @@ body,html{
 }
 	
 @media only screen and (max-width: 799px){
-/*	.drop-item:hover{
-		background-color: white; 
-		color: green; 
-	}*/
-	.drop-item:focus{
-		color: green;
-		background-color: red; 
-	}
 	.drop-item{
 
 		text-align: center;
 		font-family: 'Roboto', Sans-serif;
 		background-color: #262626;
 		padding: 10px;
-		color: blue;
+		color: white;
 		font-size: 0.8em;
 
 	}
