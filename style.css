@@ -105,7 +105,7 @@ body,html{
 	
 @media only screen and (max-width: 799px){
 	.drop-item:hover{
-		background-color: #262626; 
+		background-color: white; 
 		color: green; 
 	}
 	.drop-item{
