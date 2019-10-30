@@ -103,8 +103,8 @@ body,html{
 	}
 	.footer{
 		font-size: 1.5em;
-		height: 400px;
-		background-image: url('./assets/back.jpg');
+		height: 300px;
+		/*background-image: url('./assets/back.jpg');*/
 	}
 }
 	
@@ -192,7 +192,7 @@ body,html{
 	.footer{
 		height: 100%;
 		font-size: 1.2em;
-		background-image: url('./assets/footer-mob.jpg');
+		/*background-image: url('./assets/footer-mob.jpg');*/
 	}
 }
 
@@ -410,7 +410,7 @@ a:hover{
 	padding: 0 5px;
 }
 .icon{
-	padding: 40px 10px;
+	padding: 15px 10px;
 	color: white;
 }
 .footer{
@@ -423,10 +423,11 @@ a:hover{
 	align-items:  center;
 	font-family: 'Roboto',Sans-serif;
 	color: grey;
+	background-color: black;
 }
 #logo-white{
 	height: 100px;
-	padding: 40px;
+	padding: 30px;
 }
 .iecse{
 	color: white;
