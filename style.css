@@ -101,6 +101,9 @@ body,html{
 		display: inline-block; 
 		padding: 0 40px;
 	}
+	.footer{
+		font-size: 1.5em;
+	}
 }
 	
 @media only screen and (max-width: 799px){
@@ -185,6 +188,9 @@ body,html{
 	}
 	#oneplus{
 		width: 160px;
+	}
+	.footer{
+		font-size: 1.2em;
 	}
 }
 
@@ -368,13 +374,61 @@ a:hover{
 .sponsor-wrap{
 	padding-bottom: 10px;
 }
-.heart{
+@keyframes heartbeat {
+    0% {
+        transform: scale(.9);
+    }
+
+    20% {
+        transform: scale(1.1);
+    }
+
+    40% {
+        transform: scale(.9);
+    }
+
+    60% {
+        transform: scale(1.1);
+    }
+
+    80% {
+        transform: scale(.9);
+    }
+
+    100% {
+        transform: scale(.9);
+    }
+}
+#heart{
+	animation-name: heartbeat;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 	color: red;
+	padding: 0 5px;
+}
+.icon{
+	padding: 40px 10px;
+	color: white;
 }
 .footer{
 	padding: 20px;
-	background-color: black;
+	height: 400px;
+	background-image: url('./assets/back.jpg');
+	background-size: cover;
+	background-position: center; 
 	text-align: center;
-	font-family: Helvetica;
+/*	font-size: 1.5em;*/
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+	font-family: Roboto;
+	color: grey;
+}
+#logo-white{
+	height: 100px;
+	padding: 40px;
+}
+.iecse{
 	color: white;
 }

@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script type="text/javascript" src = "script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 <script>
 $(document).ready(function(){
   $("a").on('click', function(event) {
@@ -201,8 +203,19 @@ $(document).ready(function(){
 		</div>
 	</div>
 	<div class = "footer">
-		<div class = "footer-wrapper"></div>
-		Made with <span class = "heart">&#9829; </span> in Switzerland
+		<div class = "footer-wrapper">
+			<a href="https://www.iecsemanipal.com" target="_blank">
+			<img src = "./assets/logo-white.png" id = "logo-white"></a>
+			<p> 
+				Made with &nbsp;<i class="fa fa-heart" id="heart"></i>&nbsp; by <span class = "iecse">IECSE</span>
+			</p>
+			<div class = "social">
+				<a href="https://www.facebook.com/iecsemanipal/" target="_blank"><i class="fab fa-facebook-square icon"></i></a>
+				<a href="https://instagram.com/iecsemanipal/" target="_blank"><i class="fab fa-instagram  icon"></i></a>
+				<a href="https://www.github.com/iecse" target="_blank"><i class="fab fa-github icon"></i></a>
+				<a href="https://twitter.com/iecsemanipal" target="_blank"><i class="fab fa-twitter-square  icon"></i></a>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
