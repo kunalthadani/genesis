@@ -104,8 +104,8 @@ body,html{
 }
 	
 @media only screen and (max-width: 799px){
-	a:active .drop-item{
-		background-color: #262626; 
+	a:active{
+		color: green; 
 	}
 	.drop-item{
 		text-align: center;
