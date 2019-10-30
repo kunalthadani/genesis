@@ -104,10 +104,10 @@ body,html{
 }
 	
 @media only screen and (max-width: 799px){
-	.drop-item:hover{
+/*	.drop-item:hover{
 		background-color: white; 
 		color: green; 
-	}
+	}*/
 	.drop-item{
 		text-align: center;
 		font-family: 'Roboto', Sans-serif;
