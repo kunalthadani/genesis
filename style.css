@@ -114,6 +114,9 @@ body,html{
 		font-size: 0.8em;
 
 	}
+	#drop-item::selection{
+		background-color: red; 
+	}
 	#dropdown{
 		display: none;
 	}
