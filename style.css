@@ -4,6 +4,7 @@ body,html{
 	padding: 0;
 	background-color: #fcfcfc;
 }
+
 @media only screen and (min-width: 800px){
 	.nav-mob{
 		display: none;
@@ -103,6 +104,9 @@ body,html{
 }
 	
 @media only screen and (max-width: 799px){
+	a:active .drop-item{
+		background-color: #262626; 
+	}
 	.drop-item{
 		text-align: center;
 		font-family: 'Roboto', Sans-serif;
@@ -367,4 +371,14 @@ a:hover{
 }
 .sponsor-wrap{
 	padding-bottom: 10px;
+}
+.heart{
+	color: red;
+}
+.footer{
+	padding: 20px;
+	background-color: black;
+	text-align: center;
+	font-family: Helvetica;
+	color: white;
 }
