@@ -6,33 +6,39 @@ var x = setInterval(function() {
 
 	var distance = EventDate - now;
 
-	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));  
-	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+	if(distance > 0 ){
 
-	var day_span = document.querySelector('#days');
-	var hours_span = document.querySelector('#hours');
-	var minutes_span = document.querySelector('#mins');
-	var secs_span = document.querySelector("#secs")
+		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));  
+		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-	if(days < 10)
-		days = '0' + days; 
-	day_span.innerHTML = days;
+		var day_span = document.querySelector('#days');
+		var hours_span = document.querySelector('#hours');
+		var minutes_span = document.querySelector('#mins');
+		var secs_span = document.querySelector("#secs")
 
-	if(hours < 10)
-		hours = '0' + hours; 
-	hours_span.innerHTML = hours;
+		if(days < 10)
+			days = '0' + days; 
+		day_span.innerHTML = days;
 
-	if(minutes < 10)
-		minutes = '0' + minutes; 
-	minutes_span.innerHTML = minutes;
+		if(hours < 10)
+			hours = '0' + hours; 
+		hours_span.innerHTML = hours;
+
+		if(minutes < 10)
+			minutes = '0' + minutes; 
+		minutes_span.innerHTML = minutes;
 
 
-	if(seconds < 10)
-		seconds = '0' + seconds; 
-	secs_span.innerHTML = seconds;
-
+		if(seconds < 10)
+			seconds = '0' + seconds; 
+		secs_span.innerHTML = seconds;
+	}
+	else{
+		var counter = document.querySelector('.counter');
+		counter.innerHTML = "";
+	}
 },1);
 
 document.addEventListener('DOMContentLoaded',function(){

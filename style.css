@@ -47,6 +47,7 @@ body,html{
 	}
 	.member-exclusive{
 		font-size: 1.5em;
+		padding: 25px;
 	}
 	.val{
 		font-size: 48px;
@@ -82,7 +83,7 @@ body,html{
 	}
 	.card{
 		width: 25%;
-		min-height: 420px;
+		min-height: 440px;
 	}	
 
 	.img-wrap{
@@ -90,6 +91,14 @@ body,html{
 	}
 	.sponsor-images img{
 		width:  300px;
+	}
+	#oneplus{
+		width: 180px;
+	}
+	.sponsor-wrap{
+		width: 300px;
+		display: inline-block; 
+		padding: 0 40px;
 	}
 }
 	
@@ -105,9 +114,6 @@ body,html{
 	}
 	#dropdown{
 		display: none;
-	}
-	.val{
-		/*font-size: 16/*px*/
 	}
 	.nav-bar{
 		display: none;
@@ -171,11 +177,14 @@ body,html{
 		min-height: 500px;
 	}
 	.img-wrap{
-		height: 300px;
+		max-height: 300px;
 	}
 	.sponsor-images img{
 		padding: 20px 0;
 		width:  200px;
+	}
+	#oneplus{
+		width: 160px;
 	}
 }
 
@@ -224,7 +233,7 @@ hr{
 	font-weight: bold;
 }
 .title{
-	font-family: Roboto;
+	font-family: 'Roboto',Sans-serif;
 	color: #60c1fc;
 }
 
@@ -259,10 +268,8 @@ hr{
 	align-items:center;
 }
 .sponsor-images{
-	display: flex;
-	flex-wrap: wrap;
-	width: 60%;
-	justify-content: space-around;
+
+	text-align: center;
 	margin: 20px auto;
 }
 .sponsor-images img{
@@ -352,4 +359,12 @@ a:hover{
 .sponsors{
 	padding: 25px;
 	text-align: center;
+}
+.sponsor-title{
+	font-family: Helvetica,'Roboto',Sans-serif;
+	color: grey;
+	font-size: 1.2em;
+}
+.sponsor-wrap{
+	padding-bottom: 10px;
 }
