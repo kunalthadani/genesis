@@ -1,4 +1,4 @@
-var EventDate = new Date("Nov 1, 2019 17:30:00").getTime();
+var EventDate = new Date("Nov 1, 2019 10:00:00").getTime();
 
 var x = setInterval(function() {
 
