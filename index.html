@@ -1,222 +1,284 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Genesis 2019</title>
-  <link rel = "stylesheet" href = "style.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script type="text/javascript" src = "script.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-<script>
-$(document).ready(function(){
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
-    }
-  });
-});
-</script>
+	<title>Genesis 2019</title>
+	<link rel="stylesheet" href="./style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- SEO -->
+	<meta name="description"
+		content="Genesis is a three day long event comprising of workshops conducted by experienced industry people as well as accomplished seniors in the college targeted towards the members of IECSE, the official computer science club of MIT Manipal. The aim of this event is to introduce various fields of computer science to students of all fields and hence uplift the technical culture of the college.">
+	<meta property="og:url" content="https://genesis.iecsemanipal.com/">
+	<meta property="og:type" content="websi">
+	<meta property="og:title" content="Genesis '19">
+	<meta property="og:description"
+		content="Genesis is a three day long event comprising of workshops conducted by experienced industry people as well as accomplished seniors in the college targeted towards the members of IECSE, the official computer science club of MIT Manipal. The aim of this event is to introduce various fields of computer science to students of all fields and hence uplift the technical culture of the college.">
+	<meta name="keywords"
+		content="IECSE,Genesis,Genesis19,Genesis2019,MIT,Manipal,Manipal Institute of Technology,design_pilot,arav,reitweic,@design_pilot,Genesis 2019,Genesis 19">
+	<meta name="author" content="IECSE">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="language" content="English">
+	<!-- SEO -->
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="./android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+	<link rel="manifest" href="./manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Favicons -->
+
+	<script type="text/javascript" src="./script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<script>
+		$(document).ready(function () {
+			$("a").on('click', function (event) {
+				if (this.hash !== "") {
+					event.preventDefault();
+					var hash = this.hash;
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function () {
+						window.location.hash = hash;
+					});
+				}
+			});
+		});
+	</script>
 </head>
+
 <body>
-	<div class = "nav-mob">
-		<div class =" nav-mob-flex">
-			<img src = "./assets/iecse-logo-dark.png">
-			<img src = "./assets/hamburger.png" id ="drop-icon">
+	<div class="nav-mob">
+		<div class=" nav-mob-flex">
+			<img src="./assets/iecse-logo-dark.png">
+			<img src="./assets/hamburger.png" id="drop-icon">
 		</div>
-		<div id = "dropdown">
-			<a href = "#about">
-				<div class = "drop-item">ABOUT</div>
+		<div id="dropdown">
+			<a href="#about">
+				<div class="drop-item">ABOUT</div>
 			</a>
-			<a href = "#speakers">
-				<div class = "drop-item">SPEAKERS</div>
+			<a href="#speakers">
+				<div class="drop-item">SPEAKERS</div>
 			</a>
-			<a href = "#event">	
-				<div class = "drop-item">EVENTS</div>
-			</a>	
-			<a href = "#sponsors">
-				<div class = "drop-item">SPONSORS</div>
+			<a href="#event">
+				<div class="drop-item">EVENTS</div>
+			</a>
+			<a href="#sponsors">
+				<div class="drop-item">SPONSORS</div>
 			</a>
 		</div>
 	</div>
-	<div class = "landing">
-		<div class = "nav-bar">
-			<div class ="nav-flex">
+	<div class="landing">
+		<div class="nav-bar">
+			<div class="nav-flex">
 				<div>
-					<img src = "./assets/iecse-logo-black.png" id = "nav-logo">
+					<img src="./assets/iecse-logo-black.png" id="nav-logo">
 				</div>
 				<ul>
-					<a href = "#about">
+					<a href="#about">
 						<li>About</li>
 					</a>
-					<a href = "#speakers">
+					<a href="#speakers">
 						<li>Speakers</li>
 					</a>
-					<a href = "#event">
+					<a href="#event">
 						<li>Events</li>
 					</a>
-					<a href = "#sponsors">
+					<a href="#sponsors">
 						<li>Sponsors</li>
 					</a>
 				</ul>
 			</div>
-		</div>		
-		<div class = "inner-flex">
-			<div class = "landing-container">
-				<div class = "Genesis">GENESIS</div>
+		</div>
+		<div class="inner-flex">
+			<div class="landing-container">
+				<div class="Genesis">GENESIS</div>
 				<hr>
-				<div class = "member-exclusive">MEMBER EXCULSIVE</div>
-				<div class = "counter">
+				<div class="member-exclusive">MEMBER EXCULSIVE</div>
+				<div class="counter">
 					<div>
-						<span class = "val" id = "days"></span><br>
-						<span class = "title">DAYS</span>
+						<span class="val" id="days"></span><br>
+						<span class="title">DAYS</span>
 					</div>
 					<div>
-						<span class = "val" id = "hours"></span><br>
-						<span class = "title">HOURS</span>
-					</div>
-
-					<div>
-						<span class = "val" id = "mins"></span><br>
-						<span class = "title">MINUTES</span>
+						<span class="val" id="hours"></span><br>
+						<span class="title">HOURS</span>
 					</div>
 
 					<div>
-						<span class = "val" id = "secs"></span><br>
-						<span class = "title">SECONDS</span>
+						<span class="val" id="mins"></span><br>
+						<span class="title">MINUTES</span>
+					</div>
+
+					<div>
+						<span class="val" id="secs"></span><br>
+						<span class="title">SECONDS</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div id = "about">
+	<div id="about">
 		<span>
-			Genesis is a three day long event comprising of workshops conducted by experienced industry people as well as accomplished seniors in the college targeted towards the members of IECSE, the official computer science club of MIT Manipal. The aim of this event is to introduce various fields of computer science to students of all fields and hence uplift the technical culture of the college.
+			Genesis is a three day long event comprising of workshops conducted by experienced industry people as well
+			as accomplished seniors in the college targeted towards the members of IECSE, the official computer science
+			club of MIT Manipal. The aim of this event is to introduce various fields of computer science to students of
+			all fields and hence uplift the technical culture of the college.
 		</span>
 	</div>
-	<div class = "speakers" id = "speakers">
-		<img src = "./assets/microphone.png" class = "mic"><br>
-		<span class = "heading">Our Speakers</span>
-<!-- 		<div class = "about-sponsors">
+	<div class="speakers" id="speakers">
+		<img src="./assets/microphone.png" class="mic"><br>
+		<span class="heading">Our Speakers</span>
+		<!-- 		<div class = "about-sponsors">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 		</div> -->
-		<div class = "speaker-grid">
-			<div class = "card">
-				<div class = "img-wrap">
+		<div class="speaker-grid">
+			<div class="card">
+				<div class="img-wrap">
 					<img src="./assets/design_pilot.jpeg">
 				</div>
-				<div class = "speaker-name">CHETHAN KVS</div>
-				<div class = "speaker-details">Designer</div>
-				<div class = "speaker-desc">Well known as the design_pilot, he is a product designer at Unacademy and an enthusiastic speaker. With creative graphic designs spanning his Facebook, YouTube and Instagram posts, he conducts talks and workshops in various colleges to encourage students into the design industry!
+				<div class="speaker-name">CHETHAN KVS</div>
+				<div class="speaker-details">Designer</div>
+				<div class="speaker-desc">Well known as the design_pilot, he is a product designer at Unacademy and an
+					enthusiastic speaker. With creative graphic designs spanning his Facebook, YouTube and Instagram
+					posts, he conducts talks and workshops in various colleges to encourage students into the design
+					industry!
 				</div>
 			</div>
-			<div class = "card">
-				<div class = "img-wrap">
+			<div class="card">
+				<div class="img-wrap">
 					<img src="./assets/reitwiec.jpeg">
 				</div>
-				<div class = "speaker-name">REITWIEC SHANDILIYA</div>
-				<div class = "speaker-details">Developer</div>
-				<div class = "speaker-desc">Reitwiec Shandilya, a 3rd year Electrical and Electronics Engineering student at MIT, Manipal and an eager learner, is one of the lead designers of IECSE and a budding developer. He doesn't limit his learning and keeps experimenting with anything new in the web world.
+				<div class="speaker-name">REITWIEC SHANDILIYA</div>
+				<div class="speaker-details">Developer</div>
+				<div class="speaker-desc">Reitwiec Shandilya, a 3rd year Electrical and Electronics Engineering student
+					at MIT, Manipal and an eager learner, is one of the lead designers of IECSE and a budding developer.
+					He doesn't limit his learning and keeps experimenting with anything new in the web world.
 				</div>
 			</div>
-			<div class = "card">
-				<div class = "img-wrap">
+			<div class="card">
+				<div class="img-wrap">
 					<img src="./assets/arav.jpeg">
 				</div>
-				<div class = "speaker-name">ARAV SARAFF</div>
-				<div class = "speaker-details">Developer</div>
-				<div class = "speaker-desc">Arav Saraff, a 3rd year Computer Science & Engineering Student at MIT, Manipal and a confident individual, is one of our lead developers and a coding enthusiast. He finds his way around his work and just keeps on trying to get better and better.
+				<div class="speaker-name">ARAV SARAFF</div>
+				<div class="speaker-details">Developer</div>
+				<div class="speaker-desc">Arav Saraff, a 3rd year Computer Science & Engineering Student at MIT, Manipal
+					and a confident individual, is one of our lead developers and a coding enthusiast. He finds his way
+					around his work and just keeps on trying to get better and better.
 				</div>
 			</div>
 		</div>
 	</div>
-	<div id = "event">
-		<img src = "./assets/event.png" class = "mic"><br>
-		<span class = "heading">Events</span>
-		<div class = "about-sponsors dates">
+	<div id="event">
+		<img src="./assets/event.png" class="mic"><br>
+		<span class="heading">Events</span>
+		<div class="about-sponsors dates">
 			1<sup>st</sup> Nov - 3<sup>rd</sup> Nov
 		</div>
-		<div class= "day-wise">
-			<div class = "day-div" id = "day1">
-				<div class = "day-topic">UX<small>CAMP</small></div>
-				<div class = "day">Day 1</div>
+		<div class="day-wise">
+			<div class="day-div" id="day1">
+				<div class="day-topic">UX<small>CAMP</small></div>
+				<div class="day">Day 1</div>
 				<hr>
-				<div class = "time">10:00 - 17:00</div>
-				<div class = "venue">NLH 303</div>
-				<div class = "day-details">
-					Learn the art of making industry grade UI/UX designs from one of the finest, Chetan KVS! A design talk and workshop specially built to encourage students into graphic designing and the industry possibilities. From designing websites and mobile app, to even movie posters and game designing, the possibilities of this vast industry will be discussed
+				<div class="time">10:00 - 17:00</div>
+				<div class="venue">NLH 303</div>
+				<div class="day-details">
+					Learn the art of making industry grade UI/UX designs from one of the finest, Chetan KVS! A design
+					talk and workshop specially built to encourage students into graphic designing and the industry
+					possibilities. From designing websites and mobile app, to even movie posters and game designing, the
+					possibilities of this vast industry will be discussed
 				</div>
 			</div>
-			<div class = "day-div" id = "day2">
-				<div class = "day-topic">CODE-OFF</div>
-				<div class = "day">Day 2</div>
+			<div class="day-div" id="day2">
+				<div class="day-topic">CODE-OFF</div>
+				<div class="day">Day 2</div>
 				<hr>
-				<div class = "time">17:30 - 20:00</div>
-				<div class = "venue">NLH 303</div>
-				<div class = "day-details">
-					A one of a kind offline coding competition where you need to survive to stay in the game. Teams at the bottom of the leaderboard will be eliminated in time periods and the final two teams go head to head against each other for 3 rounds to win the crown. Maximum team size is two.
+				<div class="time">17:30 - 20:00</div>
+				<div class="venue">NLH 303</div>
+				<div class="day-details">
+					A one of a kind offline coding competition where you need to survive to stay in the game. Teams at
+					the bottom of the leaderboard will be eliminated in time periods and the final two teams go head to
+					head against each other for 3 rounds to win the crown. Maximum team size is two.
 				</div>
 			</div>
-			<div class = "day-div" id = "day3">
-				<div class = "day-topic">BLOCKCHAIN SIMPLIFIED</div>
-				<div class = "day">Day 3</div>
+			<div class="day-div" id="day3">
+				<div class="day-topic">BLOCKCHAIN SIMPLIFIED</div>
+				<div class="day">Day 3</div>
 				<hr>
-				<div class = "time">10:00 - 13:00</div>
-				<div class = "venue">AB5 203</div>
-				<div class = "day-details">
-					A workshop on basics of blockchain technology which covers the basic working and application of blockchain in the fields of cryptocurrency, security and distributed web. This workshop aims to provide the attendees a brief overview of one of the most exciting new technologies along with a mini project on the same.
+				<div class="time">10:00 - 13:00</div>
+				<div class="venue">AB5 203</div>
+				<div class="day-details">
+					A workshop on basics of blockchain technology which covers the basic working and application of
+					blockchain in the fields of cryptocurrency, security and distributed web. This workshop aims to
+					provide the attendees a brief overview of one of the most exciting new technologies along with a
+					mini project on the same.
 
 				</div>
 			</div>
-			<div class = "day-div" id = "day4">
-				<div class = "day-topic">DATA VISUALISATION</div>
-				<div class = "day">Day 3</div>
+			<div class="day-div" id="day4">
+				<div class="day-topic">DATA VISUALISATION</div>
+				<div class="day">Day 3</div>
 				<hr>
-				<div class = "time">10:00 - 13:00</div>
-				<div class = "venue">AB5 202</div>
-				<div class = "day-details">
-					A beginner friendly workshop on data analysis using P5.js Javascript library to visualize a data set. Aimed to equip the attendees with basics of data analysis and web development using Javascript to highlight how data can be analyzed to provide insights about product usage.
+				<div class="time">10:00 - 13:00</div>
+				<div class="venue">AB5 202</div>
+				<div class="day-details">
+					A beginner friendly workshop on data analysis using P5.js Javascript library to visualize a data
+					set. Aimed to equip the attendees with basics of data analysis and web development using Javascript
+					to highlight how data can be analyzed to provide insights about product usage.
 
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class = "sponsors" id = "sponsors">
-		<div class = "heading">Our Sponsors</div>
-		<div class = "sponsor-images">
-			<div class = "sponsor-wrap">
-				<img src = "./assets/oneplus.png" id = "oneplus">
-				<div class = "sponsor-title">Title Sponsor</div>
+	<div class="sponsors" id="sponsors">
+		<div class="heading">Our Sponsors</div>
+		<div class="sponsor-images">
+			<div class="sponsor-wrap">
+				<img src="./assets/oneplus.png" id="oneplus">
+				<div class="sponsor-title">Title Sponsor</div>
 			</div>
-			<div class = "sponsor-wrap">
-				<img src = "./assets/codingblocks.jpg">
-				<div class = "sponsor-title">Event Partner</div>
+			<div class="sponsor-wrap">
+				<img src="./assets/codingblocks.jpg">
+				<div class="sponsor-title">Event Partner</div>
 			</div>
 		</div>
 	</div>
-	<div class = "footer">
-		<div class = "footer-wrapper">
+	<div class="footer">
+		<div class="footer-wrapper">
 			<a href="https://www.iecsemanipal.com" target="_blank">
-			<img src = "./assets/logo-white.png" id = "logo-white"></a>
-			<p> 
-				Made with &nbsp;<i class="fa fa-heart" id="heart"></i>&nbsp; by <span class = "iecse">IECSE</span>
+				<img src="./assets/logo-white.png" id="logo-white"></a>
+			<p>
+				Made with &nbsp;<i class="fa fa-heart" id="heart"></i>&nbsp; by <span class="iecse">IECSE</span>
 			</p>
-			<div class = "social">
-				<a href="https://www.facebook.com/iecsemanipal/" target="_blank"><i class="fab fa-facebook-square icon"></i></a>
+			<div class="social">
+				<a href="https://www.facebook.com/iecsemanipal/" target="_blank"><i
+						class="fab fa-facebook-square icon"></i></a>
 				<a href="https://instagram.com/iecsemanipal/" target="_blank"><i class="fab fa-instagram  icon"></i></a>
 				<a href="https://www.github.com/iecse" target="_blank"><i class="fab fa-github icon"></i></a>
-				<a href="https://twitter.com/iecsemanipal" target="_blank"><i class="fab fa-twitter-square  icon"></i></a>
+				<a href="https://twitter.com/iecsemanipal" target="_blank"><i
+						class="fab fa-twitter-square  icon"></i></a>
 			</div>
 		</div>
 	</div>
 </body>
-</html>
 
+</html>
